@@ -6,31 +6,30 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
-  font-size: 8px; 
+  margin: auto; 
+
   padding: 0.01px;
 }
 
 .title {
   background: #e3f4ff;
-  margin: 16px;
-  padding: 10px;
+  margin: 8px;
+  padding: 8px;
+  font-size: 16px; 
 }
 
 .content {
   background: #e3f4ff;
-  margin-bottom: 16px;
-  margin: 16px;
-  padding: 10px;
+  margin: 8px;
+  padding: 16px 8px;
   font-size: 10px; 
 }
 
 .button-container {
   background: #e3f4ff;
   text-align: center;
-  margin: 16px;
-  margin-bottom: 16px;
-  padding: 10px;
+  margin: 8px;
+  padding: 16px 8px;
   font-size: 10px; 
 }
 
@@ -38,6 +37,6 @@ button {
   background: white;
   border: 1px solid #eee;
   display:block;
-  padding: 10px 17px;
+  padding: 8px 24px;
   margin: auto;
 }
