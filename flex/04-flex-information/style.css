@@ -12,13 +12,13 @@ img {
   font-weight: 900;
   display:flex;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 32px;
 }
 
 .imgsatxts {
   display:flex;
   justify-content: space-evenly;
-  gap: 15px;
+  gap: 52px;
 }
 
 .imgatxt {
