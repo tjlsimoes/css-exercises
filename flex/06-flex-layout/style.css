@@ -48,6 +48,7 @@ button {
   border-radius: 8px;
   background: #eee;
   font-size: large;
+  padding: 10px;
 }
 
 input {
