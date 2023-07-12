@@ -8,7 +8,7 @@
 
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 9% 4% 36% 4%;
+  grid-template-rows: 9% 4% 82% 4%;
   gap: 4px;
 }
 
@@ -55,6 +55,14 @@
 .sidebar {
   background-color: #FF7755;
   grid-area: 2 / 1 / 4 / 2 ;
+
+  display: grid;
+  gap: 5%;
+}
+
+.sidebar > div {
+  display: grid;
+  place-content: center;
 }
 
 .sidebar .photo {
