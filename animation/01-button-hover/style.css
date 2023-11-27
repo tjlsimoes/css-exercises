@@ -18,7 +18,10 @@ button {
   text-align: center;
 }
 
-button:hover {
-	padding: 26px 34px;
-	font-size: 21px;
-}
+button {
+	transition: transform .3s ease-in-out;
+  }
+  
+  button:hover {
+	transform: scale(1.2)
+  }
